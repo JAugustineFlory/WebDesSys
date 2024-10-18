@@ -1,4 +1,10 @@
-
+@font-face {
+    font-family: "Afacad Flux";
+    src: url(fonts/Afacad_Flux/);
+}
+@font-face {font-family: Agdasima; src: url(fonts/Agdasima/);}
+@font-face {font-family: "Modern Antiqua"; src: url(fonts/Modern_Antiqua/);}
+@font-face {font-family: Quicksand; src: url(fonts/Quicksand/);}
 
 
 
