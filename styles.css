@@ -17,6 +17,7 @@ article {
     padding: 0 10px;
     margin: 10px 0;
     background-color: rgb(224, 159, 159);
+    overflow: hidden;
 }
 h1 {
     color: white;
@@ -29,13 +30,16 @@ div {
     text-align:center;
     color: white;
 }
+.colors {
+    height: fit-content;
+    display: grid;
+    grid-template-rows: 5(1fr, repeat);
+}
 .color {
     transition: 1s;
 }
 .color:hover {
-    position: relative;
-    scale: 120%;
+    scale: 110%;
     transition-duration: 1s;
     border-radius: 20px;
-    padding: 10px;
 }
