@@ -2,13 +2,17 @@
     font-family: "Afacad Flux";
     src: url(fonts/Afacad_Flux/);
 }
-@font-face {font-family: Agdasima; src: url(fonts/Agdasima/);}
+@font-face {font-family: "Agdasima"; src: url(fonts/Agdasima/);}
 @font-face {font-family: "Modern Antiqua"; src: url(fonts/Modern_Antiqua/);}
-@font-face {font-family: Quicksand; src: url(fonts/Quicksand/);}
+@font-face {font-family: "Quicksand"; src: url(fonts/Quicksand/);}
 
 
 
 /*Universal Styling*/
+.afacad {font-family: "Afacad Flux";}
+.agdasima {font-family: "Agdasima";}
+.antiqua {font-family: "Modern Antiqua";}
+.quicksand {font-family: "quicksand";}
 .gray { background-color: #778899;}
 .blue {background-color: #00008b;}
 .green {background-color: #2e8b57;}
