@@ -36,12 +36,14 @@ div {
     grid-template-rows: 5(1fr, repeat);
 }
 .color {
-    transition: 1s;
+    transition: .01s;
+    z-index: 1
 }
 .color:hover {
     scale: 110%;
-    transition-duration: 1s;
+    transition-duration: .5s;
     border-radius: 20px;
+    z-index: 2;
 }
 
 /*fonts*/
