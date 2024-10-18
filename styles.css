@@ -7,4 +7,24 @@
 .blue {background-color: #00008b;}
 .green {background-color: #2e8b57;}
 .pink {background-color: #d87093;}
-/*
+
+/*Colors*/
+div {
+    text-align:center;
+    color: white;
+}
+body {
+    padding: 0px 40px;
+    background: rgb(238, 152, 152);
+}
+article {
+    border: solid white 3px;
+    box-shadow: darkblue 1px 1px 4px;
+    padding: 0 10px;
+    margin: 10px 0;
+    background-color: rgb(224, 159, 159);
+}
+h1 {
+    color: white;
+    text-shadow: darkblue 1px 1px 4px;
+}
