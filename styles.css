@@ -7,12 +7,6 @@
 .blue {background-color: #00008b;}
 .green {background-color: #2e8b57;}
 .pink {background-color: #d87093;}
-
-/*Colors*/
-div {
-    text-align:center;
-    color: white;
-}
 body {
     padding: 0px 40px;
     background: rgb(238, 152, 152);
@@ -27,4 +21,21 @@ article {
 h1 {
     color: white;
     text-shadow: darkblue 1px 1px 4px;
+}
+
+
+/*Colors*/
+div {
+    text-align:center;
+    color: white;
+}
+.color {
+    transition: 1s;
+}
+.color:hover {
+    position: relative;
+    scale: 120%;
+    transition-duration: 1s;
+    border-radius: 20px;
+    padding: 10px;
 }
