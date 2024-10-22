@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Afacad Flux";
+    font-family: "Afacad_Flux";
     src: url(fonts/Afacad_Flux/);
 }
 @font-face {font-family: "Agdasima"; src: url(fonts/Agdasima/);}
@@ -9,7 +9,7 @@
 
 
 /*Universal Styling*/
-.afacad {font-family: "Afacad Flux";}
+.afacad {font-family: "Afacad_Flux";}
 .agdasima {font-family: "Agdasima";}
 .antiqua {font-family: "Modern Antiqua";}
 .quicksand {font-family: "quicksand";}
