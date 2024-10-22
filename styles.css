@@ -14,31 +14,23 @@
 .antiqua {font-family: "Modern Antiqua";}
 .quicksand {font-family: "quicksand";}
 .gray { background-color: #778899;}
-.blue {background-color: #00008b;}
 .green {background-color: #2e8b57;}
 .pink {background-color: #d87093;}
 body {
     padding: 0px 40px;
-    background: rgb(238, 152, 152);
 }
 article {
-    border: solid white 3px;
+    border: solid gray 3px;
     box-shadow: darkblue 1px 1px 4px;
     padding: 0 10px;
     margin: 10px 0;
-    background-color: rgb(224, 159, 159);
     overflow: hidden;
+    padding-bottom: 20px;
 }
-h1 {
-    color: white;
-    text-shadow: darkblue 1px 1px 4px;
-}
-
 
 /*Colors*/
 div {
     text-align:center;
-    color: white;
 }
 .colors {
     height: fit-content;
@@ -55,6 +47,10 @@ div {
     border-radius: 20px;
     z-index: 2;
 }
+.blue {
+    background-color: #00008b;
+    color: white;
+}
 
 /*fonts*/
 .fonts {
@@ -64,4 +60,6 @@ div {
 }
 .font {
     text-align: left;
+    width: 400px;
+    height: 200px;
 }
