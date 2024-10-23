@@ -1,16 +1,16 @@
 @font-face {
     font-family: "Afacad_Flux";
-    src: url(fonts/Afacad_Flux/);
+    src: url(fonts/Afacad_Flux/AfacadFlux-VariableFont_slnt\,wght.ttf);
 }
-@font-face {font-family: "Agdasima"; src: url(fonts/Agdasima/);}
-@font-face {font-family: "Modern Antiqua"; src: url(fonts/Modern_Antiqua/);}
-@font-face {font-family: "Quicksand"; src: url(fonts/Quicksand/);}
+@font-face {font-family: Agdasima; src: url(fonts/Agdasima/Agdasima-Regular.ttf);}
+@font-face {font-family: "Modern Antiqua"; src: url(fonts/Modern_Antiqua/ModernAntiqua-Regular.ttf);}
+@font-face {font-family: Quicksand; src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);}
 
 
 
 /*Universal Styling*/
 .afacad {font-family: "Afacad_Flux";}
-.agdasima {font-family: "Agdasima";}
+.agdasima {font-family: "Agdasima"; font-size: larger;}
 .antiqua {font-family: "Modern Antiqua";}
 .quicksand {font-family: "quicksand";}
 .gray { background-color: #778899;}
@@ -27,6 +27,7 @@ article {
     overflow: hidden;
     padding-bottom: 20px;
 }
+
 
 /*Colors*/
 div {
@@ -52,6 +53,7 @@ div {
     color: white;
 }
 
+
 /*fonts*/
 .fonts {
     display: grid;
@@ -63,3 +65,6 @@ div {
     width: 400px;
     height: 200px;
 }
+
+
+/*Text Styles*/
