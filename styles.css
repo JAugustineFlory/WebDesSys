@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Afacad_Flux";
+    font-family: "Afacad Flux";
     src: url(fonts/Afacad_Flux/AfacadFlux-VariableFont_slnt\,wght.ttf);
 }
 @font-face {font-family: Agdasima; src: url(fonts/Agdasima/Agdasima-Regular.ttf);}
@@ -9,15 +9,24 @@
 
 
 /*Universal Styling*/
-.afacad {font-family: "Afacad_Flux";}
+.afacad {font-family: "Afacad Flux";}
 .agdasima {font-family: "Agdasima"; font-size: larger;}
 .antiqua {font-family: "Modern Antiqua";}
 .quicksand {font-family: "quicksand";}
 .gray { background-color: #778899;}
 .green {background-color: #2e8b57;}
 .pink {background-color: #d87093;}
+h1 {
+    font-size: 3em;
+    font-weight: 550;
+    font-family: "Afacad Flux"
+}
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    font-family: quicksand;
+}
 body {
-    padding: 0px 40px;
 }
 article {
     border: solid gray 3px;
@@ -26,6 +35,14 @@ article {
     margin: 10px 0;
     overflow: hidden;
     padding-bottom: 20px;
+}
+main {
+    padding: 0px 40px;
+    font-family: quicksand;
+    font-size: 1.2em;
+    font-weight: 480;
+    max-width: 1000px;
+    min-width: 800px;
 }
 
 
@@ -63,8 +80,31 @@ div {
 .font {
     text-align: left;
     width: 400px;
-    height: 200px;
+    height: 280px;
 }
 
 
 /*Text Styles*/
+.tsheading {
+    font-size: 3em;
+    font-weight: 550;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.tshul {
+    margin-bottom: 50px;
+}
+
+.h2Subheading {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.tsp, ul{
+    font-family: quicksand;
+}
+
+.last {
+    margin-bottom: 20px;
+}
+
